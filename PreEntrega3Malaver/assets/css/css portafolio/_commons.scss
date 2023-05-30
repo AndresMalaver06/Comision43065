@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #220b2b;
+    color: aliceblue;
+}
+
+/*head y navbar*/
+
+#navegador{
+    margin-top: 20px;
+}
+
+.promocional{
+    grid-area: prom;
+
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.navbar{
+    grid-area: naveg;
+
+    .nav-item:hover{
+        gap: 50px;
+        background-color:#fc664f42;
+        border-radius: 10px;
+    }
+}
+
+.user{
+    grid-area: user;
+}
+
+//articulo y video//
+
+.encabezado__titulo{
+    grid-area: encabezado;
+}
+
+.video__tuto{
+    grid-area: video;
+}
+
+//carrusel portfolio//
+
+#carrusel{
+    background-color: rgba(240, 248, 255, 0.507);
+    text-align: center;   
+    margin-bottom: 20px; 
+    div{
+        div{
+            h2{
+                font-weight: 800;
+            }
+        }
+    }
+}
